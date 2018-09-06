@@ -9,5 +9,8 @@ ssh -i my-ec2-key-pair.pem ec2-user@<EC2-INSTANCE-PUBLIC-IP-ADDRESS>
 [ec2-user]$ sudo yum update -y
 [ec2-user]$ sudo yum install -y docker
 [ec2-user]$ sudo service docker start
+[ec2-user]$ sudo usermod -a -G docker ec2-user
+[ec2-user]$ exit
+reconnect
 ```
 
