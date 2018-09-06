@@ -13,4 +13,9 @@ ssh -i my-ec2-key-pair.pem ec2-user@<EC2-INSTANCE-PUBLIC-IP-ADDRESS>
 [ec2-user]$ exit
 reconnect
 ```
-
+## Amazon Linux 2 AMI 에 PHP, Python, Ruby 배포 환경 구성
+- (https://www.lesstif.com/pages/viewpage.action?pageId=51283065)
+```
+amazon-linux-extras install python3 php7.2 nginx1.12 redis4.0
+yum install php-cli php-common php-gd php-mbstring  php-mysqlnd php-pdo php-fpm php-xml php-opcache php-zip
+```
