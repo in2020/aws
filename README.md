@@ -19,3 +19,5 @@ reconnect
 amazon-linux-extras install python3 php7.2 nginx1.12 redis4.0
 yum install php-cli php-common php-gd php-mbstring  php-mysqlnd php-pdo php-fpm php-xml php-opcache php-zip
 ```
+## Amazon Linux 2에 LAMP 웹 서버 설치
+- (https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html)
