@@ -21,3 +21,8 @@ yum install php-cli php-common php-gd php-mbstring  php-mysqlnd php-pdo php-fpm 
 ```
 ## Amazon Linux 2에 LAMP 웹 서버 설치
 - (https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-lamp-amazon-linux-2.html)
+
+## Load Balancer
+- (2018.10.02)종류 3가지 ALB(Application Load Balancer), NLB(Network Load Balanacer), Classic
+- [Classic Load Balancer 대신 Application Load Balancer를 사용 이점](https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/introduction.html)
+  - 경로, 호스트 기반 설정 가능, 성능 
